@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+      "ulei",
+      "ceapa",
+      "usturoi",
+      "carne_porc",
+      "cartofi",
+      "mazare",
+      "orez",
+      "piper",
+      "sare",
+      "ciuri",
+      "apa",
+      "ciuperci",
+      "ghimbir",
+      "musetel",
+      "zahar",
+      "busuioc",
+      "faina"
+    ],
+    
+    "prices": {
+      "ulei": 2.0,
+      "ceapa": 1.0,
+      "usturoi": 1.5,
+      "carne_porc": 3,
+      "cartofi": 2,
+      "mazare": 0.5,
+      "orez": 1,
+      "piper": 0,
+      "sare": 0,
+      "ciuri": 10,
+      "apa": 0,
+      "ciuperci": 1,
+      "ghimbir": 5,
+      "musetel": 2.5,
+      "zahar": 0,
+      "busuioc": 0.5,
+      "faina": 0.5
+    },
+
+    "recipes": {
+      "carne_cu_cartofi": ["ulei", "carne_porc", "ceapa", "usturoi", "cartofi", "mazare", "piper", "sare"],
+      "orez_cu_pui": ["ulei", "orez", "carne_pui", "ceapa", "usturoi", "mazare", "piper", "sare"],
+      "cartofi_prajiti": ["ulei", "cartofi", "sare"],
+      "mancare_de_cartofi": ["apa", "sare", "cartofi", "ceapa", "usturoi"],
+      "ceai_de_musetel": ["apa", "musetel", "zahar"],
+      "ceai_de_ghimbir": ["apa", "ghimbir"],
+      "coca_cola": ["apa", "zahar"],
+      "tort": ["zahar", "apa", "faina"]
+    },
+
+    "dishes": [
+      "carne_cu_cartofi",
+      "orez_cu_pui",
+      "cartofi_prajiti",
+      "mancare_de_cartofi",
+      "tort"
+    ],
+
+    "beverages": [
+      "ceai_de_musetel",
+      "ceai_de_ghimbir",
+      "coca_cola"
+    ]
+  }
